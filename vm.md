@@ -259,3 +259,5 @@ TechCo migrated its core infrastructure to a cloud platform, utilizing VMs to re
 
 3. **Strategic Use of Disaster Recovery**:  
    Automated backups and regional redundancy ensured business continuity and reduced the impact of unforeseen events.
+
+- This is just to demonstrate how to push.
