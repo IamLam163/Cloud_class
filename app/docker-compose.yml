@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  user-service:
+    build:
+      context: ./User
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+  product-service:
+    build:
+      context: ./Product
+      dockerfile: Dockerfile
+    ports:
+      - "3100:3100"
+    networks:
+      - app-network
+
+  order-service:
+    build:
+      context: ./Order
+      dockerfile: Dockerfile
+    ports:
+      - "3200:3200"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

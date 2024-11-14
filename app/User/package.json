@@ -1,0 +1,15 @@
+{
+  "name": "user-service",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "this is a user micro service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "devlam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
